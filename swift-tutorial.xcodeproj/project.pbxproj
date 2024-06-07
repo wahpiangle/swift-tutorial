@@ -11,6 +11,16 @@
 		9051A1F02C120EFC002AF636 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051A1EF2C120EFC002AF636 /* ContentView.swift */; };
 		9051A1F22C120EFE002AF636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9051A1F12C120EFE002AF636 /* Assets.xcassets */; };
 		9051A1F52C120EFE002AF636 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9051A1F42C120EFE002AF636 /* Preview Assets.xcassets */; };
+		906AB7EB2C131070000643B8 /* DealButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB7EA2C131070000643B8 /* DealButton.swift */; };
+		906AB7EF2C131256000643B8 /* InitEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB7EE2C131256000643B8 /* InitEnums.swift */; };
+		906AB7F12C13154E000643B8 /* ForEachPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB7F02C13154E000643B8 /* ForEachPage.swift */; };
+		906AB7F32C131832000643B8 /* Grids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB7F22C131832000643B8 /* Grids.swift */; };
+		906AB7F52C131A76000643B8 /* BindingComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB7F42C131A76000643B8 /* BindingComponent.swift */; };
+		906AB7F72C131C42000643B8 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB7F62C131C42000643B8 /* Animation.swift */; };
+		906AB7FA2C131E90000643B8 /* Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB7F92C131E90000643B8 /* Transitions.swift */; };
+		906AB7FC2C131F52000643B8 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB7FB2C131F52000643B8 /* Sheets.swift */; };
+		906AB7FE2C1320CD000643B8 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB7FD2C1320CD000643B8 /* Navigation.swift */; };
+		906AB8002C1322BC000643B8 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB7FF2C1322BC000643B8 /* List.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		9051A1EF2C120EFC002AF636 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9051A1F12C120EFE002AF636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9051A1F42C120EFE002AF636 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		906AB7EA2C131070000643B8 /* DealButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealButton.swift; sourceTree = "<group>"; };
+		906AB7EE2C131256000643B8 /* InitEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitEnums.swift; sourceTree = "<group>"; };
+		906AB7F02C13154E000643B8 /* ForEachPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachPage.swift; sourceTree = "<group>"; };
+		906AB7F22C131832000643B8 /* Grids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grids.swift; sourceTree = "<group>"; };
+		906AB7F42C131A76000643B8 /* BindingComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingComponent.swift; sourceTree = "<group>"; };
+		906AB7F62C131C42000643B8 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		906AB7F92C131E90000643B8 /* Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions.swift; sourceTree = "<group>"; };
+		906AB7FB2C131F52000643B8 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		906AB7FD2C1320CD000643B8 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		906AB7FF2C1322BC000643B8 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +71,19 @@
 		9051A1EC2C120EFC002AF636 /* swift-tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				906AB7F82C131C4A000643B8 /* cardPage */,
 				9051A1ED2C120EFC002AF636 /* swift_tutorialApp.swift */,
-				9051A1EF2C120EFC002AF636 /* ContentView.swift */,
+				906AB7F02C13154E000643B8 /* ForEachPage.swift */,
+				906AB7F62C131C42000643B8 /* Animation.swift */,
+				906AB7F22C131832000643B8 /* Grids.swift */,
+				906AB7F92C131E90000643B8 /* Transitions.swift */,
+				906AB7F42C131A76000643B8 /* BindingComponent.swift */,
+				906AB7FF2C1322BC000643B8 /* List.swift */,
+				906AB7EE2C131256000643B8 /* InitEnums.swift */,
 				9051A1F12C120EFE002AF636 /* Assets.xcassets */,
 				9051A1F32C120EFE002AF636 /* Preview Content */,
+				906AB7FB2C131F52000643B8 /* Sheets.swift */,
+				906AB7FD2C1320CD000643B8 /* Navigation.swift */,
 			);
 			path = "swift-tutorial";
 			sourceTree = "<group>";
@@ -65,6 +94,15 @@
 				9051A1F42C120EFE002AF636 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		906AB7F82C131C4A000643B8 /* cardPage */ = {
+			isa = PBXGroup;
+			children = (
+				906AB7EA2C131070000643B8 /* DealButton.swift */,
+				9051A1EF2C120EFC002AF636 /* ContentView.swift */,
+			);
+			path = cardPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +176,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				9051A1F02C120EFC002AF636 /* ContentView.swift in Sources */,
+				906AB7F32C131832000643B8 /* Grids.swift in Sources */,
+				906AB7F72C131C42000643B8 /* Animation.swift in Sources */,
+				906AB7FE2C1320CD000643B8 /* Navigation.swift in Sources */,
+				906AB7FA2C131E90000643B8 /* Transitions.swift in Sources */,
+				906AB8002C1322BC000643B8 /* List.swift in Sources */,
+				906AB7F12C13154E000643B8 /* ForEachPage.swift in Sources */,
+				906AB7EF2C131256000643B8 /* InitEnums.swift in Sources */,
 				9051A1EE2C120EFC002AF636 /* swift_tutorialApp.swift in Sources */,
+				906AB7EB2C131070000643B8 /* DealButton.swift in Sources */,
+				906AB7F52C131A76000643B8 /* BindingComponent.swift in Sources */,
+				906AB7FC2C131F52000643B8 /* Sheets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
