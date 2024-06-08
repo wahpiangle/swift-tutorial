@@ -21,6 +21,15 @@
 		906AB7FC2C131F52000643B8 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB7FB2C131F52000643B8 /* Sheets.swift */; };
 		906AB7FE2C1320CD000643B8 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB7FD2C1320CD000643B8 /* Navigation.swift */; };
 		906AB8002C1322BC000643B8 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB7FF2C1322BC000643B8 /* List.swift */; };
+		906AB8022C14340F000643B8 /* ActionsheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8012C14340F000643B8 /* ActionsheetBootcamp.swift */; };
+		906AB8042C143712000643B8 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8032C143712000643B8 /* TextFields.swift */; };
+		906AB8062C1439E8000643B8 /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8052C1439E8000643B8 /* Pickers.swift */; };
+		906AB8082C143C4F000643B8 /* OnAppearDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8072C143C4F000643B8 /* OnAppearDisappear.swift */; };
+		906AB80A2C143CEC000643B8 /* IfLetGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8092C143CEC000643B8 /* IfLetGuard.swift */; };
+		906AB80C2C143FD2000643B8 /* CustomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB80B2C143FD2000643B8 /* CustomModel.swift */; };
+		906AB8132C1448FD000643B8 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB80F2C1448FC000643B8 /* FruitModel.swift */; };
+		906AB8142C1448FD000643B8 /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8102C1448FC000643B8 /* FruitViewModel.swift */; };
+		906AB8152C1448FD000643B8 /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8112C1448FC000643B8 /* ViewModelBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +48,15 @@
 		906AB7FB2C131F52000643B8 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
 		906AB7FD2C1320CD000643B8 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		906AB7FF2C1322BC000643B8 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		906AB8012C14340F000643B8 /* ActionsheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsheetBootcamp.swift; sourceTree = "<group>"; };
+		906AB8032C143712000643B8 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		906AB8052C1439E8000643B8 /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
+		906AB8072C143C4F000643B8 /* OnAppearDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearDisappear.swift; sourceTree = "<group>"; };
+		906AB8092C143CEC000643B8 /* IfLetGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuard.swift; sourceTree = "<group>"; };
+		906AB80B2C143FD2000643B8 /* CustomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModel.swift; sourceTree = "<group>"; };
+		906AB80F2C1448FC000643B8 /* FruitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		906AB8102C1448FC000643B8 /* FruitViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
+		906AB8112C1448FC000643B8 /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,19 +89,26 @@
 		9051A1EC2C120EFC002AF636 /* swift-tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				906AB8122C1448FC000643B8 /* FruitMVC */,
 				906AB7F82C131C4A000643B8 /* cardPage */,
 				9051A1ED2C120EFC002AF636 /* swift_tutorialApp.swift */,
+				906AB8012C14340F000643B8 /* ActionsheetBootcamp.swift */,
+				906AB8072C143C4F000643B8 /* OnAppearDisappear.swift */,
 				906AB7F02C13154E000643B8 /* ForEachPage.swift */,
 				906AB7F62C131C42000643B8 /* Animation.swift */,
 				906AB7F22C131832000643B8 /* Grids.swift */,
+				906AB7FB2C131F52000643B8 /* Sheets.swift */,
 				906AB7F92C131E90000643B8 /* Transitions.swift */,
+				906AB7FD2C1320CD000643B8 /* Navigation.swift */,
 				906AB7F42C131A76000643B8 /* BindingComponent.swift */,
+				906AB80B2C143FD2000643B8 /* CustomModel.swift */,
 				906AB7FF2C1322BC000643B8 /* List.swift */,
 				906AB7EE2C131256000643B8 /* InitEnums.swift */,
+				906AB8052C1439E8000643B8 /* Pickers.swift */,
+				906AB8092C143CEC000643B8 /* IfLetGuard.swift */,
+				906AB8032C143712000643B8 /* TextFields.swift */,
 				9051A1F12C120EFE002AF636 /* Assets.xcassets */,
 				9051A1F32C120EFE002AF636 /* Preview Content */,
-				906AB7FB2C131F52000643B8 /* Sheets.swift */,
-				906AB7FD2C1320CD000643B8 /* Navigation.swift */,
 			);
 			path = "swift-tutorial";
 			sourceTree = "<group>";
@@ -103,6 +128,16 @@
 				9051A1EF2C120EFC002AF636 /* ContentView.swift */,
 			);
 			path = cardPage;
+			sourceTree = "<group>";
+		};
+		906AB8122C1448FC000643B8 /* FruitMVC */ = {
+			isa = PBXGroup;
+			children = (
+				906AB80F2C1448FC000643B8 /* FruitModel.swift */,
+				906AB8102C1448FC000643B8 /* FruitViewModel.swift */,
+				906AB8112C1448FC000643B8 /* ViewModelBootcamp.swift */,
+			);
+			path = FruitMVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,16 +210,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				906AB8062C1439E8000643B8 /* Pickers.swift in Sources */,
+				906AB8082C143C4F000643B8 /* OnAppearDisappear.swift in Sources */,
+				906AB8022C14340F000643B8 /* ActionsheetBootcamp.swift in Sources */,
+				906AB80A2C143CEC000643B8 /* IfLetGuard.swift in Sources */,
 				9051A1F02C120EFC002AF636 /* ContentView.swift in Sources */,
 				906AB7F32C131832000643B8 /* Grids.swift in Sources */,
+				906AB80C2C143FD2000643B8 /* CustomModel.swift in Sources */,
+				906AB8152C1448FD000643B8 /* ViewModelBootcamp.swift in Sources */,
 				906AB7F72C131C42000643B8 /* Animation.swift in Sources */,
 				906AB7FE2C1320CD000643B8 /* Navigation.swift in Sources */,
+				906AB8042C143712000643B8 /* TextFields.swift in Sources */,
 				906AB7FA2C131E90000643B8 /* Transitions.swift in Sources */,
 				906AB8002C1322BC000643B8 /* List.swift in Sources */,
 				906AB7F12C13154E000643B8 /* ForEachPage.swift in Sources */,
 				906AB7EF2C131256000643B8 /* InitEnums.swift in Sources */,
 				9051A1EE2C120EFC002AF636 /* swift_tutorialApp.swift in Sources */,
 				906AB7EB2C131070000643B8 /* DealButton.swift in Sources */,
+				906AB8132C1448FD000643B8 /* FruitModel.swift in Sources */,
+				906AB8142C1448FD000643B8 /* FruitViewModel.swift in Sources */,
 				906AB7F52C131A76000643B8 /* BindingComponent.swift in Sources */,
 				906AB7FC2C131F52000643B8 /* Sheets.swift in Sources */,
 			);

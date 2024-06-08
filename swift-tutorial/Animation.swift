@@ -35,15 +35,18 @@ struct Animation: View {
                 }
                 RoundedRectangle(cornerRadius: 20)
                     .frame(width: isAnimating ? 350 : 50, height: 100)
-                    .animation(.spring(
-                        response: 0.5,
-                        dampingFraction: 0.7,
-                        blendDuration: 1.0))
+                    .animation(
+                        .spring(
+                            response: 0.5,
+                            dampingFraction: 0.7,
+                            blendDuration: 1),
+                        value: isAnimating
+                    )
                 
             }
         }
         .animation(.spring(), value: animate1)
-        .animation(.linear(duration: 5), value: animate2)
+        .animation(.linear(duration: 1), value: animate2)
     }
 }
 
