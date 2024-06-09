@@ -30,6 +30,14 @@
 		906AB8132C1448FD000643B8 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB80F2C1448FC000643B8 /* FruitModel.swift */; };
 		906AB8142C1448FD000643B8 /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8102C1448FC000643B8 /* FruitViewModel.swift */; };
 		906AB8152C1448FD000643B8 /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8112C1448FC000643B8 /* ViewModelBootcamp.swift */; };
+		906AB8172C158907000643B8 /* EnvironmentObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8162C158907000643B8 /* EnvironmentObjectBootcamp.swift */; };
+		906AB8192C158D1F000643B8 /* AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8182C158D1F000643B8 /* AppStorageBootcamp.swift */; };
+		906AB81C2C1590F0000643B8 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB81B2C1590F0000643B8 /* IntroView.swift */; };
+		906AB81E2C1590FA000643B8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB81D2C1590FA000643B8 /* OnboardingView.swift */; };
+		906AB8202C159109000643B8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB81F2C159109000643B8 /* ProfileView.swift */; };
+		906AB8232C159212000643B8 /* OnboardingViewComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8222C159212000643B8 /* OnboardingViewComponents.swift */; };
+		906AB8252C15935A000643B8 /* AsyncImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8242C15935A000643B8 /* AsyncImageBootcamp.swift */; };
+		906AB8272C159582000643B8 /* NavigationStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AB8262C159582000643B8 /* NavigationStackBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +65,14 @@
 		906AB80F2C1448FC000643B8 /* FruitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		906AB8102C1448FC000643B8 /* FruitViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
 		906AB8112C1448FC000643B8 /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
+		906AB8162C158907000643B8 /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
+		906AB8182C158D1F000643B8 /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
+		906AB81B2C1590F0000643B8 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		906AB81D2C1590FA000643B8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		906AB81F2C159109000643B8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		906AB8222C159212000643B8 /* OnboardingViewComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewComponents.swift; sourceTree = "<group>"; };
+		906AB8242C15935A000643B8 /* AsyncImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageBootcamp.swift; sourceTree = "<group>"; };
+		906AB8262C159582000643B8 /* NavigationStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +105,7 @@
 		9051A1EC2C120EFC002AF636 /* swift-tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				906AB81A2C1590DA000643B8 /* OnboardingViews */,
 				906AB8122C1448FC000643B8 /* FruitMVC */,
 				906AB7F82C131C4A000643B8 /* cardPage */,
 				9051A1ED2C120EFC002AF636 /* swift_tutorialApp.swift */,
@@ -104,11 +121,15 @@
 				906AB80B2C143FD2000643B8 /* CustomModel.swift */,
 				906AB7FF2C1322BC000643B8 /* List.swift */,
 				906AB7EE2C131256000643B8 /* InitEnums.swift */,
+				906AB8182C158D1F000643B8 /* AppStorageBootcamp.swift */,
+				906AB8162C158907000643B8 /* EnvironmentObjectBootcamp.swift */,
+				906AB8262C159582000643B8 /* NavigationStackBootcamp.swift */,
 				906AB8052C1439E8000643B8 /* Pickers.swift */,
 				906AB8092C143CEC000643B8 /* IfLetGuard.swift */,
 				906AB8032C143712000643B8 /* TextFields.swift */,
 				9051A1F12C120EFE002AF636 /* Assets.xcassets */,
 				9051A1F32C120EFE002AF636 /* Preview Content */,
+				906AB8242C15935A000643B8 /* AsyncImageBootcamp.swift */,
 			);
 			path = "swift-tutorial";
 			sourceTree = "<group>";
@@ -138,6 +159,25 @@
 				906AB8112C1448FC000643B8 /* ViewModelBootcamp.swift */,
 			);
 			path = FruitMVC;
+			sourceTree = "<group>";
+		};
+		906AB81A2C1590DA000643B8 /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				906AB8212C159160000643B8 /* components */,
+				906AB81B2C1590F0000643B8 /* IntroView.swift */,
+				906AB81D2C1590FA000643B8 /* OnboardingView.swift */,
+				906AB81F2C159109000643B8 /* ProfileView.swift */,
+			);
+			path = OnboardingViews;
+			sourceTree = "<group>";
+		};
+		906AB8212C159160000643B8 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				906AB8222C159212000643B8 /* OnboardingViewComponents.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,15 +256,23 @@
 				906AB80A2C143CEC000643B8 /* IfLetGuard.swift in Sources */,
 				9051A1F02C120EFC002AF636 /* ContentView.swift in Sources */,
 				906AB7F32C131832000643B8 /* Grids.swift in Sources */,
+				906AB8192C158D1F000643B8 /* AppStorageBootcamp.swift in Sources */,
+				906AB8272C159582000643B8 /* NavigationStackBootcamp.swift in Sources */,
 				906AB80C2C143FD2000643B8 /* CustomModel.swift in Sources */,
 				906AB8152C1448FD000643B8 /* ViewModelBootcamp.swift in Sources */,
 				906AB7F72C131C42000643B8 /* Animation.swift in Sources */,
+				906AB8172C158907000643B8 /* EnvironmentObjectBootcamp.swift in Sources */,
 				906AB7FE2C1320CD000643B8 /* Navigation.swift in Sources */,
+				906AB8232C159212000643B8 /* OnboardingViewComponents.swift in Sources */,
 				906AB8042C143712000643B8 /* TextFields.swift in Sources */,
 				906AB7FA2C131E90000643B8 /* Transitions.swift in Sources */,
+				906AB8202C159109000643B8 /* ProfileView.swift in Sources */,
 				906AB8002C1322BC000643B8 /* List.swift in Sources */,
+				906AB8252C15935A000643B8 /* AsyncImageBootcamp.swift in Sources */,
 				906AB7F12C13154E000643B8 /* ForEachPage.swift in Sources */,
 				906AB7EF2C131256000643B8 /* InitEnums.swift in Sources */,
+				906AB81C2C1590F0000643B8 /* IntroView.swift in Sources */,
+				906AB81E2C1590FA000643B8 /* OnboardingView.swift in Sources */,
 				9051A1EE2C120EFC002AF636 /* swift_tutorialApp.swift in Sources */,
 				906AB7EB2C131070000643B8 /* DealButton.swift in Sources */,
 				906AB8132C1448FD000643B8 /* FruitModel.swift in Sources */,

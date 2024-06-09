@@ -39,7 +39,7 @@ struct ViewModelBootcamp: View {
                     label:{
                         Image(systemName: "arrow.clockwise")
                     }
-                    )
+                )
             )
         }
     }
